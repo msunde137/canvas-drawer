@@ -7,7 +7,7 @@ if (WIN32) # Include win64 platforms
   find_library(GLFW NAMES glfw3 PATHS external/lib)
 
   set(INCLUDE_DIRS
-     external/include )
+     external/include src/common)
 
   set(LIBRARY_DIRS
     lib
@@ -70,7 +70,7 @@ endif()
 
 include_directories(${INCLUDE_DIRS})
 link_directories(${LIBRARY_DIRS})
-file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
+file(GLOB_RECURSE SOURCES "src/common/*.cpp" "src/common/*.h")
 source_group("src" FILES ${SOURCES})
 
 add_executable(draw_test ${SOURCES})
