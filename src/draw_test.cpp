@@ -1,7 +1,6 @@
 #include <iostream>
 #include "canvas.h"
 
-using namespace agl;
 using namespace std;
 
 void test_line(canvas& drawer, int ax, int ay, int bx, int by, const std::string& savename)
