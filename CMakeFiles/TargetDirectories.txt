@@ -1,4 +1,0 @@
-C:/NerdThings/GraphicsCourse/canvas-drawer/CMakeFiles/draw_test.dir
-C:/NerdThings/GraphicsCourse/canvas-drawer/CMakeFiles/draw_art.dir
-C:/NerdThings/GraphicsCourse/canvas-drawer/CMakeFiles/ALL_BUILD.dir
-C:/NerdThings/GraphicsCourse/canvas-drawer/CMakeFiles/ZERO_CHECK.dir

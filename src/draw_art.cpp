@@ -72,7 +72,7 @@ int main(int argc, char** argv)
 	drawer.color(0, 255, 0);
 	drawer.vertex(500, 100);
 	drawer.end();
-
+		
 	//drawer.begin(CIRCLES);
 	//drawer.color(0, 255, 0);
 	//drawer.vertex(300, 300);
